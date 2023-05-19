@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon/26.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon/26.png"
+      type="image/x-icon"
+    />
+    <title>Aashapura Ecommerence</title>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fo nts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/font-awesome.css"
+    />
+
+    <!--Slick slider css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/slick-theme.css"
+    />
+
+    <!-- Animate icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/animate.css"
+    />
+
+    <!-- Themify icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/themify-icons.css"
+    />
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/bootstrap.css"
+    />
+
+    <!-- Theme css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+
+  <body class="theme-color-1">
+    <!-- header start -->
+    <header id="sticky-header" class="style-light header-compact">
+      <div class="mobile-fix-option"></div>
+      <div class="top-header top-header-theme">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="header-contact">
+                <ul>
+                  <li>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>256 B
+                    Street 45 Newyork, Newyork
+                  </li>
+                  <li>
+                    <a href="" class="text-white fw-bold">
+                      <i class="fa fa-mobile" aria-hidden="true"></i> +92
+                      31304754657</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <ul class="header-dropdown">
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-youtube" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="main-menu">
+              <div class="menu-left">
+                <div class="brand-logo">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/logo/logo.png"
+                      alt=""
+                      srcset=""
+                      width="550px"
+                      height="80px"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <form class="form_search" role="form">
+                  <input
+                    id="query search-autocomplete"
+                    type="search"
+                    placeholder="Search for products"
+                    class="nav-search nav-search-field"
+                    aria-expanded="true"
+                  />
+                  <button
+                    type="submit"
+                    name="nav-submit-button"
+                    class="btn-search"
+                  >
+                    <i class="ti-search"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="menu-right pull-right">
+                <div>
+                  <div class="icon-nav">
+                    <ul>
+                      <li
+                        class="onhover-div mobile-search d-xl-none d-inline-block"
+                      >
+                        <div>
+                          <img
+                            src="./assets/images/icon/search.png"
+                            onclick="openSearch()"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                          /><i class="ti-search" onclick="openSearch()"></i>
+                        </div>
+                        <div id="search-overlay" class="search-overlay">
+                          <div>
+                            <span
+                              class="closebtn"
+                              onclick="closeSearch()"
+                              title="Close Overlay"
+                              >×</span
+                            >
+                            <div class="overlay-content">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-xl-12">
+                                    <form>
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          id="exampleInputPassword1"
+                                          placeholder="Search a Product"
+                                        />
+                                      </div>
+                                      <button
+                                        type="submit"
+                                        class="btn btn-primary"
+                                      >
+                                        <i class="fa fa-search"></i>
+                                      </button>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="onhover-div mobile-setting">
+                        <div>
+                          <img
+                            src="./assets/images/icon/profile.png"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                            width="35px"
+                          /><i class="ti-settings"></i>
+                        </div>
+                        <div class="show-div setting">
+                          <ul>
+                            <li>
+                              <a href="profile.html"
+                                ><img
+                                  src="./assets/images/icon/user.png"
+                                  alt=""
+                                  srcset=""
+                                  width="25px"
+                                  height="25px"
+                                  class="mx-2"
+                                />Profile</a
+                              >
+                            </li>
+
+                            <li>
+                              <a href="login.html"
+                                ><img
+                                  src="./assets/images/icon/logout.png"
+                                  alt=""
+                                  srcset=""
+                                  width="25px"
+                                  height="25px"
+                                  class="mx-2"
+                                />Logout</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="onhover-div mobile-wishlist">
+                        <a href="wishlist.html">
+                          <div>
+                            <img
+                              src="./assets/images/icon/wishlist.png"
+                              class="img-fluid blur-up lazyload"
+                              alt=""
+                              width="35px"
+                            />
+                          </div>
+                          <span class="cart_qty_cls">0</span>
+                        </a>
+                      </li>
+                      <li class="onhover-div mobile-cart">
+                        <div>
+                          <img
+                            src="./assets/images/icon/cart.png"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                          /><i class="ti-shopping-cart"></i>
+                        </div>
+                        <span class="cart_qty_cls">0</span>
+                        <ul class="show-div shopping-cart">
+                          <li>
+                            <div class="media">
+                              <a href="product-details.html"
+                                ><img
+                                  alt=""
+                                  class="me-3"
+                                  src="./assets/images/products/1.png"
+                              /></a>
+                              <div class="media-body">
+                                <a href="product-details.html">
+                                  <h4>Hero Cycle Sprint</h4>
+                                </a>
+                                <h4><span>1 x $687.45</span></h4>
+                              </div>
+                            </div>
+                            <div class="close-circle">
+                              <a href="#"
+                                ><i class="fa fa-times" aria-hidden="true"></i
+                              ></a>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="total">
+                              <h5>subtotal : <span>$687.45</span></h5>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="buttons">
+                              <a href="cart.html" class="view-cart"
+                                >view cart</a
+                              >
+                              <a href="checkout.html" class="checkout"
+                                >checkout</a
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-part bottom-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 menu-row">
+              <div class="main-nav-center">
+                <nav id="main-nav" class="text-start">
+                  <div class="toggle-nav">
+                    <i class="fa fa-bars sidebar-bar"></i>
+                  </div>
+                  <ul id="main-menu" class="sm pixelstrap sm-horizontal">
+                    <li>
+                      <a href="#" class="btn btn-light mx-3 px-5 fw-bolder">
+                        <i class="fa fa-bars me-3"></i> Category</a
+                      >
+                      <ul class="mx-3">
+                        <li>
+                          <a href="#">City Bicycles</a>
+                        </li>
+                        <li>
+                          <a href="#">Hybrid Bicycles</a>
+                        </li>
+                        <li>
+                          <a href="#">Road Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Mountain Bike </a>
+                        </li>
+                        <li>
+                          <a href="#">Fat Bike </a>
+                        </li>
+                        <li>
+                          <a href="#">Time Trial </a>
+                        </li>
+                        <li>
+                          <a href="#">BMX Bicycle </a>
+                        </li>
+                        <li>
+                          <a href="#">Folding Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Touring Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Fixed-Gear Bicycles </a>
+                        </li>
+
+                        <hr />
+
+                        <li>
+                          <a href="category.html">View All </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <div class="mobile-back text-end">
+                        Back<i
+                          class="fa fa-angle-right ps-2"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </li>
+                    <li><a href="index.html" class="">Home</a></li>
+                    <li class="mega" id="hover-cls">
+                      <a href="product-list.html">Balances Bike</a>
+                    </li>
+                    <li><a href="product-list.html">Kids Bike</a></li>
+                    <li>
+                      <a
+                        href="#"
+                        class="has-submenu"
+                        id="sm-16843014249737383-5"
+                        aria-haspopup="true"
+                        aria-controls="sm-16843014249737383-6"
+                        aria-expanded="false"
+                        >Accessories<span class="sub-arrow"></span
+                      ></a>
+                      <ul
+                        id="sm-16843014249737383-6"
+                        role="group"
+                        aria-hidden="true"
+                        aria-labelledby="sm-16843014249737383-5"
+                        aria-expanded="false"
+                        class="sm-nowrap"
+                        style="
+                          width: auto;
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: 0px;
+                          margin-top: 0px;
+                          min-width: 10em;
+                          max-width: 20em;
+                        "
+                      >
+                        <li>
+                          <a href="accessories.html">Kids Bike Gloves</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html">Kids Bike Helmates</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html"
+                            >Teenager / Adult Helmets</a
+                          >
+                        </li>
+                        <li>
+                          <a href="accessories.html"
+                            >Kids Knee and Elbow pads</a
+                          >
+                        </li>
+                        <li>
+                          <a href="accessories.html">Spare Parts</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="mega" id="hover-cls">
+                      <a
+                        href="#"
+                        class="has-submenu"
+                        id="sm-16843803068102805-1"
+                        aria-haspopup="true"
+                        aria-controls="sm-16843803068102805-2"
+                        aria-expanded="false"
+                        >Products<span class="sub-arrow"></span
+                      ></a>
+                      <ul
+                        class="mega-menu full-mega-menu sm-nowrap"
+                        id="sm-16843803068102805-2"
+                        role="group"
+                        aria-hidden="true"
+                        aria-labelledby="sm-16843803068102805-1"
+                        aria-expanded="false"
+                        style="
+                          width: auto;
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          margin-top: 0px;
+                          min-width: 10em;
+                          max-width: 20em;
+                        "
+                      >
+                        <li>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <img
+                                  src="./assets/images/hero/banner/4.jpg"
+                                  class="img-fluid mega-img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <span
+                        class="scroll-up"
+                        style="
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          width: 1140px;
+                          z-index: 7;
+                          display: none;
+                          margin-top: -240px;
+                          visibility: hidden;
+                        "
+                        ><span class="scroll-up-arrow"></span></span
+                      ><span
+                        class="scroll-down"
+                        style="
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          width: 1140px;
+                          z-index: 7;
+                          margin-top: 389px;
+                          visibility: hidden;
+                        "
+                        ><span class="scroll-down-arrow"></span
+                      ></span>
+                    </li>
+                    <li><a href="seller.html">Seller</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- breadcrumb start -->
+    <div class="breadcrumb-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="page-title">
+              <h2>Empty Cart</h2>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <nav aria-label="breadcrumb" class="theme-breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Empty Cart
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- breadcrumb End -->
+
+    <!-- section start -->
+    <section class="p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div
+              class="d-flex justify-content-center align-items-center flex-column h-100"
+            >
+              <img
+                src="./assets/images/hero/empty-cart.png"
+                alt=""
+                srcset=""
+                class="img-fluid"
+              />
+              <a href="product-list.html" class="btn btn-solid"
+                >Go To Shopping</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section ends -->
+
+    <!-- latest jquery-->
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+
+    <!-- menu js-->
+    <script src="./assets/js/menu.js"></script>
+
+    <!-- lazyload js-->
+    <script src="./assets/js/lazysizes.min.js"></script>
+
+    <!-- slick js-->
+    <script src="./assets/js/slick.js"></script>
+
+    <!-- Bootstrap js-->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Notification js-->
+    <script src="./assets/js/bootstrap-notify.min.js"></script>
+
+    <!-- Theme js-->
+    <script src="./assets/js/theme-setting.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

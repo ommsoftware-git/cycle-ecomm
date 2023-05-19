@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon/26.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon/26.png"
+      type="image/x-icon"
+    />
+    <title>Aashapura Ecommerence</title>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fo nts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/font-awesome.css"
+    />
+
+    <!--Slick slider css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/slick-theme.css"
+    />
+
+    <!-- Animate icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/animate.css"
+    />
+
+    <!-- Themify icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/themify-icons.css"
+    />
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/bootstrap.css"
+    />
+
+    <!-- Theme css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+
+  <body class="theme-color-1">
+    <!-- header start -->
+    <header id="sticky-header" class="style-light header-compact">
+      <div class="mobile-fix-option"></div>
+      <div class="top-header top-header-theme">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="header-contact">
+                <ul>
+                  <li>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>256 B
+                    Street 45 Newyork, Newyork
+                  </li>
+                  <li>
+                    <a href="" class="text-white fw-bold">
+                      <i class="fa fa-mobile" aria-hidden="true"></i> +92
+                      31304754657</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <ul class="header-dropdown">
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-youtube" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="main-menu">
+              <div class="menu-left">
+                <div class="brand-logo">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/logo/logo.png"
+                      alt=""
+                      srcset=""
+                      width="550px"
+                      height="80px"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <form class="form_search" role="form">
+                  <input
+                    id="query search-autocomplete"
+                    type="search"
+                    placeholder="Search for products"
+                    class="nav-search nav-search-field"
+                    aria-expanded="true"
+                  />
+                  <button
+                    type="submit"
+                    name="nav-submit-button"
+                    class="btn-search"
+                  >
+                    <i class="ti-search"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="menu-right pull-right">
+                <div>
+                  <div class="icon-nav">
+                    <ul>
+                      <li
+                        class="onhover-div mobile-search d-xl-none d-inline-block"
+                      >
+                        <div>
+                          <img
+                            src="./assets/images/icon/search.png"
+                            onclick="openSearch()"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                          /><i class="ti-search" onclick="openSearch()"></i>
+                        </div>
+                        <div id="search-overlay" class="search-overlay">
+                          <div>
+                            <span
+                              class="closebtn"
+                              onclick="closeSearch()"
+                              title="Close Overlay"
+                              >×</span
+                            >
+                            <div class="overlay-content">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-xl-12">
+                                    <form>
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          id="exampleInputPassword1"
+                                          placeholder="Search a Product"
+                                        />
+                                      </div>
+                                      <button
+                                        type="submit"
+                                        class="btn btn-primary"
+                                      >
+                                        <i class="fa fa-search"></i>
+                                      </button>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="onhover-div mobile-setting">
+                        <div>
+                          <img
+                            src="./assets/images/icon/profile.png"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                            width="35px"
+                          /><i class="ti-settings"></i>
+                        </div>
+                        <div class="show-div setting">
+                          <ul>
+                            <li>
+                              <a href="profile.html"
+                                ><img
+                                  src="./assets/images/icon/user.png"
+                                  alt=""
+                                  srcset=""
+                                  width="25px"
+                                  height="25px"
+                                  class="mx-2"
+                                />Profile</a
+                              >
+                            </li>
+
+                            <li>
+                              <a href="login.html"
+                                ><img
+                                  src="./assets/images/icon/logout.png"
+                                  alt=""
+                                  srcset=""
+                                  width="25px"
+                                  height="25px"
+                                  class="mx-2"
+                                />Logout</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="onhover-div mobile-wishlist">
+                        <a href="wishlist.html">
+                          <div>
+                            <img
+                              src="./assets/images/icon/wishlist.png"
+                              class="img-fluid blur-up lazyload"
+                              alt=""
+                              width="35px"
+                            />
+                          </div>
+                          <span class="cart_qty_cls">0</span>
+                        </a>
+                      </li>
+                      <li class="onhover-div mobile-cart">
+                        <div>
+                          <img
+                            src="./assets/images/icon/cart.png"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                          /><i class="ti-shopping-cart"></i>
+                        </div>
+                        <span class="cart_qty_cls">0</span>
+                        <ul class="show-div shopping-cart">
+                          <li>
+                            <div class="media">
+                              <a href="product-details.html"
+                                ><img
+                                  alt=""
+                                  class="me-3"
+                                  src="./assets/images/products/1.png"
+                              /></a>
+                              <div class="media-body">
+                                <a href="product-details.html">
+                                  <h4>Hero Cycle Sprint</h4>
+                                </a>
+                                <h4><span>1 x $687.45</span></h4>
+                              </div>
+                            </div>
+                            <div class="close-circle">
+                              <a href="#"
+                                ><i class="fa fa-times" aria-hidden="true"></i
+                              ></a>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="total">
+                              <h5>subtotal : <span>$687.45</span></h5>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="buttons">
+                              <a href="cart.html" class="view-cart"
+                                >view cart</a
+                              >
+                              <a href="checkout.html" class="checkout"
+                                >checkout</a
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-part bottom-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 menu-row">
+              <div class="main-nav-center">
+                <nav id="main-nav" class="text-start">
+                  <div class="toggle-nav">
+                    <i class="fa fa-bars sidebar-bar"></i>
+                  </div>
+                  <ul id="main-menu" class="sm pixelstrap sm-horizontal">
+                    <li>
+                      <a href="#" class="btn btn-light mx-3 px-5 fw-bolder">
+                        <i class="fa fa-bars me-3"></i> Category</a
+                      >
+                      <ul class="mx-3">
+                        <li>
+                          <a href="#">City Bicycles</a>
+                        </li>
+                        <li>
+                          <a href="#">Hybrid Bicycles</a>
+                        </li>
+                        <li>
+                          <a href="#">Road Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Mountain Bike </a>
+                        </li>
+                        <li>
+                          <a href="#">Fat Bike </a>
+                        </li>
+                        <li>
+                          <a href="#">Time Trial </a>
+                        </li>
+                        <li>
+                          <a href="#">BMX Bicycle </a>
+                        </li>
+                        <li>
+                          <a href="#">Folding Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Touring Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Fixed-Gear Bicycles </a>
+                        </li>
+
+                        <hr />
+
+                        <li>
+                          <a href="category.html">View All </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <div class="mobile-back text-end">
+                        Back<i
+                          class="fa fa-angle-right ps-2"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </li>
+                    <li><a href="index.html" class="">Home</a></li>
+                    <li class="mega" id="hover-cls">
+                      <a href="product-list.html">Balances Bike</a>
+                    </li>
+                    <li><a href="product-list.html">Kids Bike</a></li>
+                    <li>
+                      <a
+                        href="#"
+                        class="has-submenu"
+                        id="sm-16843014249737383-5"
+                        aria-haspopup="true"
+                        aria-controls="sm-16843014249737383-6"
+                        aria-expanded="false"
+                        >Accessories<span class="sub-arrow"></span
+                      ></a>
+                      <ul
+                        id="sm-16843014249737383-6"
+                        role="group"
+                        aria-hidden="true"
+                        aria-labelledby="sm-16843014249737383-5"
+                        aria-expanded="false"
+                        class="sm-nowrap"
+                        style="
+                          width: auto;
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: 0px;
+                          margin-top: 0px;
+                          min-width: 10em;
+                          max-width: 20em;
+                        "
+                      >
+                        <li>
+                          <a href="accessories.html">Kids Bike Gloves</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html">Kids Bike Helmates</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html"
+                            >Teenager / Adult Helmets</a
+                          >
+                        </li>
+                        <li>
+                          <a href="accessories.html"
+                            >Kids Knee and Elbow pads</a
+                          >
+                        </li>
+                        <li>
+                          <a href="accessories.html">Spare Parts</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="mega" id="hover-cls">
+                      <a
+                        href="#"
+                        class="has-submenu active"
+                        id="sm-16843803068102805-1"
+                        aria-haspopup="true"
+                        aria-controls="sm-16843803068102805-2"
+                        aria-expanded="false"
+                        >Products<span class="sub-arrow"></span
+                      ></a>
+                      <ul
+                        class="mega-menu full-mega-menu sm-nowrap"
+                        id="sm-16843803068102805-2"
+                        role="group"
+                        aria-hidden="true"
+                        aria-labelledby="sm-16843803068102805-1"
+                        aria-expanded="false"
+                        style="
+                          width: auto;
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          margin-top: 0px;
+                          min-width: 10em;
+                          max-width: 20em;
+                        "
+                      >
+                        <li>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <img
+                                  src="./assets/images/hero/banner/4.jpg"
+                                  class="img-fluid mega-img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <span
+                        class="scroll-up"
+                        style="
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          width: 1140px;
+                          z-index: 7;
+                          display: none;
+                          margin-top: -240px;
+                          visibility: hidden;
+                        "
+                        ><span class="scroll-up-arrow"></span></span
+                      ><span
+                        class="scroll-down"
+                        style="
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          width: 1140px;
+                          z-index: 7;
+                          margin-top: 389px;
+                          visibility: hidden;
+                        "
+                        ><span class="scroll-down-arrow"></span
+                      ></span>
+                    </li>
+                    <li><a href="seller.html">Seller</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- breadcrumb start -->
+    <div class="breadcrumb-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="page-title">
+              <h2>product-Details</h2>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <nav aria-label="breadcrumb" class="theme-breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  product-Details
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- breadcrumb End -->
+
+    <!-- section start -->
+    <section class="section-b-space">
+      <div class="collection-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="product-slick">
+                <div>
+                  <img
+                    src="./assets/images/products/2.webp"
+                    alt=""
+                    class="blur-up lazyload"
+                    width="100%"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/images/products/4.png"
+                    alt=""
+                    class="blur-up lazyload"
+                    width="100%"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/images/products/5.webp"
+                    alt=""
+                    class="blur-up lazyload"
+                    width="100%"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/images/products/2.webp"
+                    alt=""
+                    class="blur-up lazyload"
+                    width="100%"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/images/products/4.png"
+                    alt=""
+                    class="blur-up lazyload"
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 p-0">
+                  <div class="slider-nav">
+                    <div>
+                      <img
+                        src="./assets/images/products/2.webp"
+                        alt="product"
+                        width="100%"
+                        height="200px"
+                        class="blur-up lazyload"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        src="./assets/images/products/4.png"
+                        alt="product"
+                        width="100%"
+                        height="200px"
+                        class="blur-up lazyload"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        src="./assets/images/products/5.webp"
+                        alt="product"
+                        width="100%"
+                        height="200px"
+                        class="blur-up lazyload"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        src="./assets/images/products/2.webp"
+                        alt="product"
+                        width="100%"
+                        height="200px"
+                        class="blur-up lazyload"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        src="./assets/images/products/4.png"
+                        alt="product"
+                        width="100%"
+                        height="200px"
+                        class="blur-up lazyload"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 rtl-text">
+              <div class="product-right">
+                <h2>Hero Cycle Sprint</h2>
+                <div class="rating-section">
+                  <div class="rating">
+                    <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <h6>120 ratings</h6>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-lg-4 col-md-4">
+                    <h6 class="fw-bolder">Sku: <span>01133-9-9</span></h6>
+                  </div>
+                  <div class="col-md-6 col-lg-6 col-12">
+                    <h6 class="fw-bolder">
+                      Category: <span>City Bicycles</span>
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="label-section">
+                  <span class="badge badge-grey-color">#Availability:</span>
+                  <span class="label-text">in stock</span>
+                </div>
+                <h3 class="price-detail">
+                  $11,70 <del>$14.00</del><span>55% off</span>
+                </h3>
+                <ul class="color-variant">
+                  <li class="bg-light0 active"></li>
+                  <li class="bg-light1"></li>
+                  <li class="bg-light2"></li>
+                </ul>
+                <div
+                  id="selectSize"
+                  class="addeffect-section product-description border-product"
+                >
+                  <h6 class="product-title size-text">select size</h6>
+
+                  <h6 class="error-message">please select size</h6>
+                  <div class="size-box">
+                    <ul>
+                      <li><a href="javascript:void(0)"> 86.0</a></li>
+                      <li><a href="javascript:void(0)">99.0</a></li>
+                      <li><a href="javascript:void(0)">114.0</a></li>
+                      <li><a href="javascript:void(0)">130.0 </a></li>
+                      <li><a href="javascript:void(0)">150.0</a></li>
+                    </ul>
+                  </div>
+                  <h6 class="product-title">quantity</h6>
+                  <div class="qty-box">
+                    <div class="input-group">
+                      <span class="input-group-prepend"
+                        ><button
+                          type="button"
+                          class="btn quantity-left-minus"
+                          data-type="minus"
+                          data-field=""
+                        >
+                          <i class="ti-angle-left"></i>
+                        </button>
+                      </span>
+                      <input
+                        type="text"
+                        name="quantity"
+                        class="form-control input-number"
+                        value="1"
+                      />
+                      <span class="input-group-prepend"
+                        ><button
+                          type="button"
+                          class="btn quantity-right-plus"
+                          data-type="plus"
+                          data-field=""
+                        >
+                          <i class="ti-angle-right"></i></button
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 offset-3 offset-lg-0">
+                    <div class="select_policy">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input mt-3 p-2"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault"
+                        />
+                        <label
+                          class="form-check-label mx-3 pt-3 product-buttons btn-animation"
+                          for="flexCheckDefault"
+                        >
+                          <h4>Buy With Policy</h4>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-count">
+                  <ul>
+                    <li>
+                      <img
+                        src="./assets/images/icon/truck.png"
+                        class="img-fluid"
+                        alt="image"
+                      />
+                      <span class="lang"
+                        >Free shipping for orders above $500 USD</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="product-buttons">
+                  <a
+                    href="cart.html"
+                    id="cartEffect"
+                    class="btn btn-solid hover-solid"
+                    ><i class="fa fa-shopping-cart me-1" aria-hidden="true"></i>
+                    add to cart</a
+                  >
+                  <a href="wishlist.html" class="btn btn-solid"
+                    ><i class="fa fa-bookmark fz-16 me-2" aria-hidden="true"></i
+                    >wishlist</a
+                  >
+                </div>
+
+                <div class="border-product">
+                  <h6 class="product-title">shipping info</h6>
+                  <ul class="shipping-info">
+                    <li>100% Original Products</li>
+                    <li>Free Delivery on order above Rs. 7999</li>
+                    <li>Pay on delivery is available</li>
+                    <li>Easy 30 days returns and exchanges</li>
+                  </ul>
+                </div>
+                <div class="border-product">
+                  <h6 class="product-title">share it</h6>
+                  <div class="product-icon">
+                    <ul class="product-social">
+                      <li>
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fa fa-rss"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section ends -->
+
+    <!-- product-tab starts -->
+    <section class="tab-product pt-0 m-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-12">
+            <ul class="nav nav-tabs nav-material" id="top-tab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="top-home-tab"
+                  data-bs-toggle="tab"
+                  href="#top-home"
+                  role="tab"
+                  aria-selected="true"
+                  ><i class="icofont icofont-ui-home"></i>Description</a
+                >
+                <div class="material-border"></div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="profile-top-tab"
+                  data-bs-toggle="tab"
+                  href="#top-profile"
+                  role="tab"
+                  aria-selected="false"
+                  ><i class="icofont icofont-man-in-glasses"></i
+                  >Specification</a
+                >
+                <div class="material-border"></div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="contact-top-tab"
+                  data-bs-toggle="tab"
+                  href="#top-contact"
+                  role="tab"
+                  aria-selected="false"
+                  ><i class="icofont icofont-contacts"></i>Policy</a
+                >
+                <div class="material-border"></div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="review-top-tab"
+                  data-bs-toggle="tab"
+                  href="#top-review"
+                  role="tab"
+                  aria-selected="false"
+                  ><i class="icofont icofont-contacts"></i>Reviews</a
+                >
+                <div class="material-border"></div>
+              </li>
+            </ul>
+            <div class="tab-content nav-material" id="top-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="top-home"
+                role="tabpanel"
+                aria-labelledby="top-home-tab"
+              >
+                <div class="product-tab-discription">
+                  <div class="part">
+                    <h5 class="inner-title text-center mb-4">
+                      Best Balance Bike for Toddlers
+                    </h5>
+                    <p style="text-align: justify">
+                      Are you looking for a starter bike for your Toddler? The
+                      Rookie 12 inch Balance Bike for 2 year olds is the perfect
+                      first bike for teaching toddlers how to balance and steer
+                      before they get a pedal bike – all in a fun and safe way.
+                      This pre-bike teaches them the basics of balance and
+                      control even if your kid has just started walking. Get
+                      them ready for their FIRST Pedal Bike with this
+                      Lightweight 12 inch Balance Bike from Kidvelo!
+                    </p>
+                    <p style="text-align: justify">
+                      Are you looking for a starter bike for your Toddler? The
+                      Rookie 12 inch Balance Bike for 2 year olds is the perfect
+                      first bike for teaching toddlers how to balance and steer
+                      before they get a pedal bike – all in a fun and safe way.
+                      This pre-bike teaches them the basics of balance and
+                      control even if your kid has just started walking. Get
+                      them ready for their FIRST Pedal Bike with this
+                      Lightweight 12 inch Balance Bike from Kidvelo!
+                    </p>
+                    <p style="text-align: justify">
+                      Are you looking for a starter bike for your Toddler? The
+                      Rookie 12 inch Balance Bike for 2 year olds is the perfect
+                      first bike for teaching toddlers how to balance and steer
+                      before they get a pedal bike – all in a fun and safe way.
+                      This pre-bike teaches them the basics of balance and
+                      control even if your kid has just started walking. Get
+                      them ready for their FIRST Pedal Bike with this
+                      Lightweight 12 inch Balance Bike from Kidvelo!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="top-profile"
+                role="tabpanel"
+                aria-labelledby="profile-top-tab"
+              >
+                <h5 class="fw-bold">Who is it for?</h5>
+                <p>
+                  Age Group : 18 months to 4.5 years, some 5 years olds will fit
+                  depending on the inseam measurement.
+                </p>
+                <p>
+                  Loading limit: 30 kgs – one of the few bikes to carry this
+                  weight!
+                </p>
+                <hr />
+                <h5 class="fw-bold">Sizing</h5>
+                <p>
+                  Age Group : 18 months to 4.5 years, some 5 years olds will fit
+                  depending on the inseam measurement.
+                </p>
+                <p>
+                  Loading limit: 30 kgs – one of the few bikes to carry this
+                  weight!
+                </p>
+                <hr />
+                <h5 class="fw-bold">What is it made from?</h5>
+                <p>
+                  Age Group : 18 months to 4.5 years, some 5 years olds will fit
+                  depending on the inseam measurement.
+                </p>
+                <p>
+                  Loading limit: 30 kgs – one of the few bikes to carry this
+                  weight!
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="top-contact"
+                role="tabpanel"
+                aria-labelledby="contact-top-tab"
+              >
+                <h5 class="text-center fw-bold mb-4">
+                  Best Balance Bike for Toddlers
+                </h5>
+                <p style="text-align: justify">
+                  Are you looking for a starter bike for your Toddler? The
+                  Rookie 12 inch Balance Bike for 2 year olds is the perfect
+                  first bike for teaching toddlers how to balance and steer
+                  before they get a pedal bike – all in a fun and safe way. This
+                  pre-bike teaches them the basics of balance and control even
+                  if your kid has just started walking. Get them ready for their
+                  FIRST Pedal Bike with this Lightweight 12 inch Balance Bike
+                  from Kidvelo!
+                </p>
+                <p style="text-align: justify">
+                  Are you looking for a starter bike for your Toddler? The
+                  Rookie 12 inch Balance Bike for 2 year olds is the perfect
+                  first bike for teaching toddlers how to balance and steer
+                  before they get a pedal bike – all in a fun and safe way. This
+                  pre-bike teaches them the basics of balance and control even
+                  if your kid has just started walking. Get them ready for their
+                  FIRST Pedal Bike with this Lightweight 12 inch Balance Bike
+                  from Kidvelo!
+                </p>
+                <p style="text-align: justify">
+                  Are you looking for a starter bike for your Toddler? The
+                  Rookie 12 inch Balance Bike for 2 year olds is the perfect
+                  first bike for teaching toddlers how to balance and steer
+                  before they get a pedal bike – all in a fun and safe way. This
+                  pre-bike teaches them the basics of balance and control even
+                  if your kid has just started walking. Get them ready for their
+                  FIRST Pedal Bike with this Lightweight 12 inch Balance Bike
+                  from Kidvelo!
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="top-review"
+                role="tabpanel"
+                aria-labelledby="review-top-tab"
+              >
+                <form class="theme-form">
+                  <div class="form-row row">
+                    <div class="col-md-12">
+                      <h5 class="fw-bold">Customer reviews</h5>
+                      <div class="media mb-5">
+                        <label>Rating</label>
+                        <div class="media-body ms-3">
+                          <div class="rating three-star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h5 class="fw-bold">Write a review</h5>
+                    <div class="col-md-6">
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Enter Your name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email">Email</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-12">
+                      <label for="review">Review Title</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="review"
+                        placeholder="Enter your Review Subjects"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-12">
+                      <label for="review">Review Title</label>
+                      <textarea
+                        class="form-control"
+                        placeholder="Wrire Your Testimonial Here"
+                        id="exampleFormControlTextarea1"
+                        rows="6"
+                      ></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="btn btn-solid" type="submit">
+                        Submit YOur Review
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product-tab ends -->
+
+    <!-- product slider start -->
+    <section class="bag-product ratio_square">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title8 mb-5">
+              <h2 class="text-center heading-home">
+                RELATED <span>PRODUCTS</span>
+              </h2>
+              <p class="text-center text-dark">
+                Create early childhood memories on the Kidvelo Balance Bike.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="slide-7-demo slick-sm-margin no-arrow">
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product slider end -->
+
+    <!-- latest jquery-->
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+
+    <script src="./assets/js/360view.js"></script>
+
+    <!-- menu js-->
+    <script src="./assets/js/menu.js"></script>
+
+    <!-- lazyload js-->
+    <script src="./assets/js/lazysizes.min.js"></script>
+
+    <!-- slick js-->
+    <script src="./assets/js/slick.js"></script>
+
+    <!-- timer js-->
+    <script src="./assets/js/timer.js"></script>
+
+    <!-- Bootstrap js-->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Notification js-->
+    <script src="./assets/js/bootstrap-notify.min.js"></script>
+
+    <!-- Theme js-->
+    <script src="./assets/js/theme-setting.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3475 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon/26.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon/26.png"
+      type="image/x-icon"
+    />
+    <title>Aashapura Ecommerence</title>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fo nts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/font-awesome.css"
+    />
+
+    <!--Slick slider css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/slick-theme.css"
+    />
+
+    <!-- Animate icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/animate.css"
+    />
+
+    <!-- Themify icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/themify-icons.css"
+    />
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/bootstrap.css"
+    />
+
+    <!-- Theme css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+
+  <body class="theme-color-30 mulish-font">
+    <!-- header start -->
+    <header id="sticky-header" class="style-light header-compact">
+      <div class="mobile-fix-option"></div>
+      <div class="top-header top-header-theme">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="header-contact">
+                <ul>
+                  <li>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>256 B
+                    Street 45 Newyork, Newyork
+                  </li>
+                  <li>
+                    <a href="" class="text-white fw-bold">
+                      <i class="fa fa-mobile" aria-hidden="true"></i> +92
+                      31304754657</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <ul class="header-dropdown">
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-youtube" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="main-menu">
+              <div class="menu-left">
+                <div class="brand-logo">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/logo/logo.png"
+                      alt=""
+                      srcset=""
+                      width="550px"
+                      height="80px"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <form class="form_search" role="form">
+                  <input
+                    id="query search-autocomplete"
+                    type="search"
+                    placeholder="Search for products"
+                    class="nav-search nav-search-field"
+                    aria-expanded="true"
+                  />
+                  <button
+                    type="submit"
+                    name="nav-submit-button"
+                    class="btn-search"
+                  >
+                    <i class="ti-search"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="menu-right pull-right">
+                <div>
+                  <div class="icon-nav">
+                    <ul>
+                      <li
+                        class="onhover-div mobile-search d-xl-none d-inline-block"
+                      >
+                        <div>
+                          <img
+                            src="./assets/images/icon/search.png"
+                            onclick="openSearch()"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                          /><i class="ti-search" onclick="openSearch()"></i>
+                        </div>
+                        <div id="search-overlay" class="search-overlay">
+                          <div>
+                            <span
+                              class="closebtn"
+                              onclick="closeSearch()"
+                              title="Close Overlay"
+                              >×</span
+                            >
+                            <div class="overlay-content">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-xl-12">
+                                    <form>
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          id="exampleInputPassword1"
+                                          placeholder="Search a Product"
+                                        />
+                                      </div>
+                                      <button
+                                        type="submit"
+                                        class="btn btn-primary"
+                                      >
+                                        <i class="fa fa-search"></i>
+                                      </button>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="onhover-div mobile-setting">
+                        <div>
+                          <img
+                            src="./assets/images/icon/profile.png"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                            width="35px"
+                          /><i class="ti-settings"></i>
+                        </div>
+                        <div class="show-div setting">
+                          <ul>
+                            <li>
+                              <a href="profile.html"
+                                ><img
+                                  src="./assets/images/icon/user.png"
+                                  alt=""
+                                  srcset=""
+                                  width="25px"
+                                  height="25px"
+                                  class="mx-2"
+                                />Profile</a
+                              >
+                            </li>
+
+                            <li>
+                              <a href="login.html"
+                                ><img
+                                  src="./assets/images/icon/logout.png"
+                                  alt=""
+                                  srcset=""
+                                  width="25px"
+                                  height="25px"
+                                  class="mx-2"
+                                />Logout</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="onhover-div mobile-wishlist">
+                        <a href="wishlist.html">
+                          <div>
+                            <img
+                              src="./assets/images/icon/wishlist.png"
+                              class="img-fluid blur-up lazyload"
+                              alt=""
+                              width="35px"
+                            />
+                          </div>
+                          <span class="cart_qty_cls">0</span>
+                        </a>
+                      </li>
+                      <li class="onhover-div mobile-cart">
+                        <div>
+                          <img
+                            src="./assets/images/icon/cart.png"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                          /><i class="ti-shopping-cart"></i>
+                        </div>
+                        <span class="cart_qty_cls">0</span>
+                        <ul class="show-div shopping-cart">
+                          <li>
+                            <div class="media">
+                              <a href="product-details.html"
+                                ><img
+                                  alt=""
+                                  class="me-3"
+                                  src="./assets/images/products/1.png"
+                              /></a>
+                              <div class="media-body">
+                                <a href="product-details.html">
+                                  <h4>Hero Cycle Sprint</h4>
+                                </a>
+                                <h4><span>1 x $687.45</span></h4>
+                              </div>
+                            </div>
+                            <div class="close-circle">
+                              <a href="#"
+                                ><i class="fa fa-times" aria-hidden="true"></i
+                              ></a>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="total">
+                              <h5>subtotal : <span>$687.45</span></h5>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="buttons">
+                              <a href="cart.html" class="view-cart"
+                                >view cart</a
+                              >
+                              <a href="checkout.html" class="checkout"
+                                >checkout</a
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-part bottom-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 menu-row">
+              <div class="main-nav-center">
+                <nav id="main-nav" class="text-start">
+                  <div class="toggle-nav">
+                    <i class="fa fa-bars sidebar-bar"></i>
+                  </div>
+                  <ul id="main-menu" class="sm pixelstrap sm-horizontal">
+                    <li>
+                      <a href="#" class="btn btn-light mx-3 px-5 fw-bolder">
+                        <i class="fa fa-bars me-3"></i> Category</a
+                      >
+                      <ul class="mx-3">
+                        <li>
+                          <a href="#">City Bicycles</a>
+                        </li>
+                        <li>
+                          <a href="#">Hybrid Bicycles</a>
+                        </li>
+                        <li>
+                          <a href="#">Road Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Mountain Bike </a>
+                        </li>
+                        <li>
+                          <a href="#">Fat Bike </a>
+                        </li>
+                        <li>
+                          <a href="#">Time Trial </a>
+                        </li>
+                        <li>
+                          <a href="#">BMX Bicycle </a>
+                        </li>
+                        <li>
+                          <a href="#">Folding Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Touring Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Fixed-Gear Bicycles </a>
+                        </li>
+
+                        <hr />
+
+                        <li>
+                          <a href="category.html">View All </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <div class="mobile-back text-end">
+                        Back<i
+                          class="fa fa-angle-right ps-2"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="mega" id="hover-cls">
+                      <a href="product-list.html">Balances Bike</a>
+                    </li>
+                    <li><a href="product-list.html">Kids Bike</a></li>
+                    <li>
+                      <a
+                        href="#"
+                        class="has-submenu"
+                        id="sm-16843014249737383-5"
+                        aria-haspopup="true"
+                        aria-controls="sm-16843014249737383-6"
+                        aria-expanded="false"
+                        >Accessories<span class="sub-arrow"></span
+                      ></a>
+                      <ul
+                        id="sm-16843014249737383-6"
+                        role="group"
+                        aria-hidden="true"
+                        aria-labelledby="sm-16843014249737383-5"
+                        aria-expanded="false"
+                        class="sm-nowrap"
+                        style="
+                          width: auto;
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: 0px;
+                          margin-top: 0px;
+                          min-width: 10em;
+                          max-width: 20em;
+                        "
+                      >
+                        <li>
+                          <a href="accessories.html">Kids Bike Gloves</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html">Kids Bike Helmates</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html"
+                            >Teenager / Adult Helmets</a
+                          >
+                        </li>
+                        <li>
+                          <a href="accessories.html"
+                            >Kids Knee and Elbow pads</a
+                          >
+                        </li>
+                        <li>
+                          <a href="accessories.html">Spare Parts</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="mega" id="hover-cls">
+                      <a
+                        href="#"
+                        class="has-submenu"
+                        id="sm-16843803068102805-1"
+                        aria-haspopup="true"
+                        aria-controls="sm-16843803068102805-2"
+                        aria-expanded="false"
+                        >Products<span class="sub-arrow"></span
+                      ></a>
+                      <ul
+                        class="mega-menu full-mega-menu sm-nowrap"
+                        id="sm-16843803068102805-2"
+                        role="group"
+                        aria-hidden="true"
+                        aria-labelledby="sm-16843803068102805-1"
+                        aria-expanded="false"
+                        style="
+                          width: auto;
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          margin-top: 0px;
+                          min-width: 10em;
+                          max-width: 20em;
+                        "
+                      >
+                        <li>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <img
+                                  src="./assets/images/hero/banner/4.jpg"
+                                  class="img-fluid mega-img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <span
+                        class="scroll-up"
+                        style="
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          width: 1140px;
+                          z-index: 7;
+                          display: none;
+                          margin-top: -240px;
+                          visibility: hidden;
+                        "
+                        ><span class="scroll-up-arrow"></span></span
+                      ><span
+                        class="scroll-down"
+                        style="
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          width: 1140px;
+                          z-index: 7;
+                          margin-top: 389px;
+                          visibility: hidden;
+                        "
+                        ><span class="scroll-down-arrow"></span
+                      ></span>
+                    </li>
+                    <li><a href="seller.html">Seller</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Home slider -->
+    <section class="p-0 layout-7">
+      <div class="slide-1 home-slider">
+        <div>
+          <div class="home text-start">
+            <img
+              src="./assets/images/hero/banner/slide2.webp"
+              alt=""
+              class="bg-img blur-up lazyload"
+            />
+            <!-- <div class="container-fluid custom-container">
+              <div class="row">
+                <div class="col">
+                  <div class="slider-contain">
+                    <div>
+                      <h1>
+                        Designed
+                        <span
+                          >For Kids <br />
+                          Built For</span
+                        >
+                        Adventure
+                      </h1>
+                      <p>
+                        we are committed to providing you with an exceptional<br />
+                        learning experience that is both interactive and
+                        engaging.
+                      </p>
+
+                      <a href="#" class="btn btn-solid">Shop Balance Bike</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div>
+          <div class="home text-start">
+            <img
+              src="./assets/images/hero/banner/slide1.webp"
+              alt=""
+              class="bg-img blur-up lazyload"
+            />
+            <!-- <div class="container-fluid custom-container">
+              <div class="row">
+                <div class="col">
+                  <div class="slider-contain">
+                    <div>
+                      <h1 style="color: #18457d">
+                        Designed
+                        <span
+                          >For Kids <br />
+                          Built For</span
+                        >
+                        Adventure
+                      </h1>
+                      <p style="color: #000">
+                        we are committed to providing you with an exceptional<br />
+                        learning experience that is both interactive and
+                        engaging.
+                      </p>
+
+                      <a href="#" class="btn btn-solid">Shop Balance Bike</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home slider end -->
+
+    <!-- banner bottom section start -->
+    <div class="banner_bottom_section">
+      <div class="container">
+        <section class="service border-section small-section">
+          <div class="row">
+            <div class="col-md-3 service-block">
+              <div class="media">
+                <img
+                  src="./assets/images/cycle-icon/cycling 1.png"
+                  alt=""
+                  srcset=""
+                />
+                <div class="media-body">
+                  <h4>Lightweight Design</h4>
+                  <p>
+                    Our balance bikes weight 30% less than most kid’s bikes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 service-block">
+              <div class="media">
+                <img
+                  src="./assets/images/cycle-icon/racing 1.png"
+                  alt=""
+                  srcset=""
+                />
+                <div class="media-body">
+                  <h4>Made For Children</h4>
+                  <p>
+                    Our balance bikes weight 30% less than most kid’s bikes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 service-block">
+              <div class="media">
+                <img
+                  src="./assets/images/cycle-icon/ribbon 1.png"
+                  alt=""
+                  srcset=""
+                />
+                <div class="media-body">
+                  <h4>Award Winner</h4>
+                  <p>
+                    Our balance bikes weight 30% less than most kid’s bikes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 service-block">
+              <div class="media">
+                <img
+                  src="./assets/images/cycle-icon/cyber-security 1.png"
+                  alt=""
+                  srcset=""
+                />
+                <div class="media-body">
+                  <h4>Guaranteed Quality</h4>
+                  <p>
+                    Our balance bikes weight 30% less than most kid’s bikes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- banner bottom section end -->
+
+    <!-- product slider start -->
+    <section class="bag-product ratio_square">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title8 mb-5">
+              <h2 class="text-center heading-home">
+                OUR <span>PRODUCTS</span>
+              </h2>
+              <p class="text-center text-dark">
+                Create early childhood memories on the Kidvelo Balance Bike.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="slide-7-demo slick-sm-margin no-arrow">
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product slider end -->
+
+    <!-- banner start -->
+    <section class="p-0 overflow-cls center-object-banner">
+      <div
+        class="full-banner feature-banner bg-size blur-up lazyloaded"
+        style="
+          background-image: url('../assets/images/bicycle/trending-product.jpg');
+          background-size: cover;
+          background-position: center center;
+          display: block;
+        "
+      >
+        <img
+          src="./assets/images/cycle-icon/trending-product.jpg"
+          alt=""
+          class="bg-img blur-up lazyload"
+          style="display: none"
+        />
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title8 mb-5">
+                <h2 class="text-center heading-home">
+                  PRODUCT OF <span>THE YEAR</span>
+                </h2>
+                <p class="text-center text-dark">
+                  Create early childhood memories on the Kidvelo Balance Bike.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <ul class="feature-object">
+                <li>
+                  <div class="media">
+                    <div class="media-body">
+                      <div>
+                        <h4>Cycle Saddle/Seat</h4>
+                        <p>Soft cushion PU saddle for best riding experience</p>
+                      </div>
+                    </div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/images/cycle-icon/1.jpg"
+                      alt="Generic placeholder image"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="media">
+                    <div class="media-body">
+                      <div>
+                        <h4>Cycling Helmet</h4>
+                        <p>Material - PVC, PC &amp; EPS foam</p>
+                      </div>
+                    </div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/images/cycle-icon/2.jpg"
+                      alt="Generic placeholder image"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="media">
+                    <div class="media-body">
+                      <div>
+                        <h4>Gloves Black</h4>
+                        <p>Abrasion-resistant faux leather</p>
+                      </div>
+                    </div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/images/cycle-icon/3.jpg"
+                      alt="Generic placeholder image"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-sm-6 offset-lg-4">
+              <ul class="feature-object-right">
+                <li>
+                  <div class="media">
+                    <img
+                      class="img-fluid"
+                      src="./assets/images/cycle-icon/4.jpg"
+                      alt="Generic placeholder image"
+                    />
+                    <div class="media-body">
+                      <div>
+                        <h4>Brake Levers</h4>
+                        <p>6 level adjustment design - AllExtreme clutch</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media">
+                    <img
+                      class="img-fluid"
+                      src="./assets/images/cycle-icon/5.jpg"
+                      alt="Generic placeholder image"
+                    />
+                    <div class="media-body">
+                      <div>
+                        <h4>Derailleur Shifter</h4>
+                        <p>Speed: 6/7s, colour: as shown in the picture</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media">
+                    <img
+                      class="img-fluid"
+                      src="./assets/images/cycle-icon/6.jpg"
+                      alt="Generic placeholder image"
+                    />
+                    <div class="media-body">
+                      <div>
+                        <h4>Bike Cassette</h4>
+                        <p>hard wearing resistance to corrosion</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="center-img">
+          <img
+            src="./assets/images/cycle-icon/cycle.png"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- product slider start -->
+    <section class="bag-product ratio_square">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title8 mb-5">
+              <h2 class="text-center heading-home">60 % <span>O F F</span></h2>
+              <p class="text-center text-dark">
+                Create early childhood memories on the Kidvelo Balance Bike.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="slide-7-demo slick-sm-margin no-arrow">
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product slider end -->
+
+    <!-- banner start -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="./assets/images/hero/banner/4.jpg"
+              alt=""
+              srcset=""
+              class="img-fluid"
+              width="100%"
+              height="261px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- product slider start -->
+    <section class="bag-product ratio_square">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title8 mb-5">
+              <h2 class="text-center heading-home">
+                TRENDING <span>PRODUCTS</span>
+              </h2>
+              <p class="text-center text-dark">
+                Create early childhood memories on the Kidvelo Balance Bike.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="slide-7-demo slick-sm-margin no-arrow">
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box product-style-4">
+                <div class="img-wrapper">
+                  <div class="front text-center">
+                    <a href="product-list.html"
+                      ><img
+                        alt=""
+                        src="./assets/images/products/1.png"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-detail">
+                    <a href="javascript:void(0)" title="Add to Wishlist"
+                      ><i class="ti-heart" aria-hidden="true"></i
+                    ></a>
+
+                    <a href="compare.html" title="Compare"
+                      ><i class="ti-reload" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info text-center">
+                  <a href="product-list.html">
+                    <h6>Hero Cycle Sprint</h6>
+                  </a>
+                  <h5>$687.45 - $901.43</h5>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-o text-warning"></i>
+                  </div>
+
+                  <div class="addtocart_btn">
+                    <a
+                      href="cart.html"
+                      type="button"
+                      class="add-button add_cart"
+                      title="Add to cart"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product slider end -->
+
+    <!-- filter product  start -->
+    <section class="bag-product ratio_square">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title8 mb-5">
+              <h2 class="text-center heading-home">
+                OUR <span>PRODUCTS</span>
+              </h2>
+              <p class="text-center text-dark">
+                Create early childhood memories on the Kidvelo Balance Bike.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-12">
+            <div class="products_filter_tabs">
+              <div
+                class="nav flex-column nav-tabs me-3"
+                id="v-pills-tab"
+                role="tablist"
+                aria-orientation="vertical"
+              >
+                <button
+                  class="nav-link active"
+                  id="v-pills-All-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-All"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-All"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+                <button
+                  class="nav-link"
+                  id="v-pills-Hero-Cycle-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Hero-Cycle"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-Hero-Cycle"
+                  aria-selected="false"
+                >
+                  Hero Cycle
+                </button>
+                <button
+                  class="nav-link"
+                  id="v-pills-Giant-Bicycles-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Giant-Bicycles"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-Giant-Bicycles"
+                  aria-selected="false"
+                >
+                  Giant Bicycles
+                </button>
+                <button
+                  class="nav-link"
+                  id="v-pills-Bicycle-Corporation-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Bicycle-Corporation"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-Bicycle-Corporation"
+                  aria-selected="false"
+                >
+                  Trek Bicycle Corporation
+                </button>
+                <button
+                  class="nav-link"
+                  id="v-pills-Firefox-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Firefox"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-Firefox"
+                  aria-selected="false"
+                >
+                  Firefox
+                </button>
+                <button
+                  class="nav-link"
+                  id="v-pills-Cannondale-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Cannondale"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-Cannondale"
+                  aria-selected="false"
+                >
+                  Cannondale
+                </button>
+                <button
+                  class="nav-link"
+                  id="v-pills-Hercules-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Hercules"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-Hercules"
+                  aria-selected="false"
+                >
+                  Hercules
+                </button>
+                <button
+                  class="nav-link"
+                  id="v-pills-Bianchi-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Bianchi"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-Bianchi"
+                  aria-selected="false"
+                >
+                  Bianchi
+                </button>
+                <button
+                  class="nav-link"
+                  id="v-pills-GT_Bicycles-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-GT_Bicycles"
+                  type="button"
+                  role="tab"
+                  aria-controls="v-pills-GT_Bicycles"
+                  aria-selected="false"
+                >
+                  GT Bicycles
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-8 col-12">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-All"
+                role="tabpanel"
+                aria-labelledby="v-pills-All-tab"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-Hero-Cycle"
+                role="tabpanel"
+                aria-labelledby="v-pills-Hero-Cycle"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-Giant-Bicycles"
+                role="tabpanel"
+                aria-labelledby="v-pills-Giant-Bicycles"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-Bicycle-Corporation"
+                role="tabpanel"
+                aria-labelledby="v-pills-Bicycle-Corporation"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-Firefox"
+                role="tabpanel"
+                aria-labelledby="v-pills-Firefox"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-Cannondale"
+                role="tabpanel"
+                aria-labelledby="v-pills-Cannondale"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-Hercules"
+                role="tabpanel"
+                aria-labelledby="v-pills-Hercules"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-Bianchi"
+                role="tabpanel"
+                aria-labelledby="v-pills-Bianchi"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-GT_Bicycles"
+                role="tabpanel"
+                aria-labelledby="v-pills-GT_Bicycles"
+              >
+                <div class="row partition3 gy-5">
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ratio_40">
+                    <div
+                      class="collection-banner p-right text-center overlay-banner"
+                    >
+                      <div
+                        class="img-part blur-up lazyloaded"
+                        style="
+                          background-image: url('./assets/images/hero/banner/1.png');
+                          background-size: cover;
+                          background-position: center center;
+                          display: block;
+                        "
+                      >
+                        <img
+                          src="./assets/images/hero/banner/1.png"
+                          class="img-fluid blur-up lazyload bg-img"
+                          alt=""
+                          style="display: none"
+                        />
+                      </div>
+                      <div class="contain-banner banner-3">
+                        <div>
+                          <h4 class="text-white">Hero Cycle Sprint</h4>
+
+                          <a
+                            href="product-list.html"
+                            class="btn btn-solid btn-sm"
+                            >shop now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- filter product  end -->
+
+    <!-- balance cards start -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title8 mb-5">
+              <h2 class="text-center heading-home">
+                WHAT AGE IS A <span>BALANCE BIKE FOR ? </span>
+              </h2>
+              <p class="text-center text-dark">
+                Create early childhood memories on the Kidvelo Balance Bike.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-12 mb-4">
+            <div
+              class="card d-flex justify-content-center align-items-center p-4"
+            >
+              <img
+                src="./assets/images/cycle-icon/Group 36.png"
+                alt=""
+                srcset=""
+                class=""
+                style="width: 85px"
+              />
+              <h3 class="text-center mt-4">
+                12 Inch Kids Bike For Ages 2-4 Years
+              </h3>
+              <small class="text-center mt-3">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s.
+              </small>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-12 mb-4">
+            <div
+              class="card d-flex justify-content-center align-items-center p-4"
+            >
+              <img
+                src="./assets/images/cycle-icon/Group 37.png"
+                alt=""
+                srcset=""
+                class=""
+                style="width: 85px"
+              />
+              <h3 class="text-center mt-4">
+                14 Inch Kids Bike For Ages 2-4 Years
+              </h3>
+              <small class="text-center mt-3">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s.
+              </small>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-12 mb-4">
+            <div
+              class="card d-flex justify-content-center align-items-center p-4"
+            >
+              <img
+                src="./assets/images/cycle-icon/Group 38.png"
+                alt=""
+                srcset=""
+                class=""
+                style="width: 85px"
+              />
+              <h3 class="text-center mt-4">
+                18 Inch Kids Bike For Ages 2-4 Years
+              </h3>
+              <small class="text-center mt-3">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s.
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="btn btn-solid" tabindex="0"
+              >Shop All Kid Balance Bikes</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--balance cards end -->
+
+    <!-- banner start -->
+    <section class="mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="./assets/images/hero/banner/2.jpg"
+              alt=""
+              srcset=""
+              class="img-fluid"
+              width="100%"
+              height="261px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- footer start -->
+    <footer class="footer-light footer-expand pb-0">
+      <div class="section-t-space section-b-space">
+        <div class="container">
+          <div class="row footer-theme partition-f">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-title footer-mobile-title">
+                <p>about</p>
+              </div>
+              <div class="footer-contant">
+                <div class="footer-logo">
+                  <img src="./assets/images/logo/logo.png" alt="" />
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+                <ul class="store-details">
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="./assets/images/store/google.png"
+                        class="img-fluid"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="./assets/images/store/app.png"
+                        class="img-fluid"
+                        alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col offset-xxl-1">
+              <div class="sub-title">
+                <div class="footer-title">
+                  <h4>Quick Links</h4>
+                </div>
+                <div class="footer-contant">
+                  <ul>
+                    <li><a href="product-list.html">Balances Bike</a></li>
+
+                    <li><a href="product-list.html">Kids Bike</a></li>
+                    <li><a href="product-list.html">Products</a></li>
+                    <li><a href="seller.html">Seller</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="sub-title">
+                <div class="footer-title">
+                  <h4>why we choose</h4>
+                </div>
+                <div class="footer-contant">
+                  <ul>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="return-policy.html">return Policy</a></li>
+                    <li><a href="buy-with-policy.html">Buy With Policy</a></li>
+                    <li><a href="privacy-policy.html">Privacy & Policy</a></li>
+                    <li>
+                      <a href="terms-conditions.html">Terms & Conditions</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="sub-title">
+                <div class="footer-title">
+                  <h4>store information</h4>
+                </div>
+                <div class="footer-contant">
+                  <ul class="contact-list">
+                    <li><i class="fa fa-map-marker"></i>Pune ,MH| India</li>
+                    <li><i class="fa fa-phone"></i>Call Us: 9876543210</li>
+                    <li>
+                      <i class="fa fa-envelope"></i>Email Us:
+                      <a href="#">demo@demo.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy text-xs-center">
+        <div class="wbfootimg1"></div>
+        <div class="wbfootimg2"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-10 col-md-6 col-sm-12">
+              <div class="footer-end">
+                <p>
+                  <i class="fa fa-copyright" aria-hidden="true"></i> 2023-24 All
+                  right reserved.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-6 col-sm-12">
+              <div class="payment-card-bottom">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><img src="./assets/images/icon/visa.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="./assets/images/icon/mastercard.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="./assets/images/icon/paypal.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="./assets/images/icon/american-express.png"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="./assets/images/icon/discover.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- tap to top -->
+    <div class="tap-top">
+      <div>
+        <i class="fa fa-bicycle"></i>
+      </div>
+    </div>
+    <!-- tap to top End -->
+
+    <!-- latest jquery-->
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+
+    <!-- portfolio js -->
+    <script src="./assets/js/isotope.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <!-- menu js-->
+    <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/sticky-menu.js"></script>
+
+    <!-- feather icon js-->
+    <script src="./assets/js/feather.min.js"></script>
+
+    <!-- lazyload js-->
+    <script src="./assets/js/lazysizes.min.js"></script>
+
+    <!-- slick js-->
+    <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/slick-animation.min.js"></script>
+
+    <!-- Bootstrap js-->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Notification js-->
+    <script src="./assets/js/bootstrap-notify.min.js"></script>
+
+    <!-- Theme js-->
+
+    <script src="./assets/js/color-setting.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/custom-slick-animated.js"></script>
+
+    <script>
+      $(window).on("load", function () {
+        setTimeout(function () {
+          $("#exampleModal").modal("show");
+        }, 2500);
+      });
+
+      function openSearch() {
+        document.getElementById("search-overlay").style.display = "block";
+      }
+
+      function closeSearch() {
+        document.getElementById("search-overlay").style.display = "none";
+      }
+      feather.replace();
+    </script>
+  </body>
+</html>

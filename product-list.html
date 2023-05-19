@@ -1,0 +1,1825 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon/26.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon/26.png"
+      type="image/x-icon"
+    />
+    <title>Aashapura Ecommerence</title>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fo nts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/font-awesome.css"
+    />
+
+    <!--Slick slider css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/slick-theme.css"
+    />
+
+    <!-- Animate icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/animate.css"
+    />
+
+    <!-- Themify icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/themify-icons.css"
+    />
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/vendors/bootstrap.css"
+    />
+
+    <!-- Theme css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+    <!-- price range css -->
+    <link rel="stylesheet" href="./assets/css/vendors/price-range.css" />
+  </head>
+
+  <body class="theme-color-1">
+    <!-- header start -->
+    <header id="sticky-header" class="style-light header-compact">
+      <div class="mobile-fix-option"></div>
+      <div class="top-header top-header-theme">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="header-contact">
+                <ul>
+                  <li>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>256 B
+                    Street 45 Newyork, Newyork
+                  </li>
+                  <li>
+                    <a href="" class="text-white fw-bold">
+                      <i class="fa fa-mobile" aria-hidden="true"></i> +92
+                      31304754657</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <ul class="header-dropdown">
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="mobile-wishlist pe-0">
+                  <a href="#"
+                    ><i class="fa fa-youtube" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="main-menu">
+              <div class="menu-left">
+                <div class="brand-logo">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/logo/logo.png"
+                      alt=""
+                      srcset=""
+                      width="550px"
+                      height="80px"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <form class="form_search" role="form">
+                  <input
+                    id="query search-autocomplete"
+                    type="search"
+                    placeholder="Search for products"
+                    class="nav-search nav-search-field"
+                    aria-expanded="true"
+                  />
+                  <button
+                    type="submit"
+                    name="nav-submit-button"
+                    class="btn-search"
+                  >
+                    <i class="ti-search"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="menu-right pull-right">
+                <div>
+                  <div class="icon-nav">
+                    <ul>
+                      <li
+                        class="onhover-div mobile-search d-xl-none d-inline-block"
+                      >
+                        <div>
+                          <img
+                            src="./assets/images/icon/search.png"
+                            onclick="openSearch()"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                          /><i class="ti-search" onclick="openSearch()"></i>
+                        </div>
+                        <div id="search-overlay" class="search-overlay">
+                          <div>
+                            <span
+                              class="closebtn"
+                              onclick="closeSearch()"
+                              title="Close Overlay"
+                              >×</span
+                            >
+                            <div class="overlay-content">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-xl-12">
+                                    <form>
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          id="exampleInputPassword1"
+                                          placeholder="Search a Product"
+                                        />
+                                      </div>
+                                      <button
+                                        type="submit"
+                                        class="btn btn-primary"
+                                      >
+                                        <i class="fa fa-search"></i>
+                                      </button>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="onhover-div mobile-setting">
+                        <div>
+                          <img
+                            src="./assets/images/icon/profile.png"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                            width="35px"
+                          /><i class="ti-settings"></i>
+                        </div>
+                        <div class="show-div setting">
+                          <ul>
+                            <li>
+                              <a href="profile.html"
+                                ><img
+                                  src="./assets/images/icon/user.png"
+                                  alt=""
+                                  srcset=""
+                                  width="25px"
+                                  height="25px"
+                                  class="mx-2"
+                                />Profile</a
+                              >
+                            </li>
+
+                            <li>
+                              <a href="login.html"
+                                ><img
+                                  src="./assets/images/icon/logout.png"
+                                  alt=""
+                                  srcset=""
+                                  width="25px"
+                                  height="25px"
+                                  class="mx-2"
+                                />Logout</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="onhover-div mobile-wishlist">
+                        <a href="wishlist.html">
+                          <div>
+                            <img
+                              src="./assets/images/icon/wishlist.png"
+                              class="img-fluid blur-up lazyload"
+                              alt=""
+                              width="35px"
+                            />
+                          </div>
+                          <span class="cart_qty_cls">0</span>
+                        </a>
+                      </li>
+                      <li class="onhover-div mobile-cart">
+                        <div>
+                          <img
+                            src="./assets/images/icon/cart.png"
+                            class="img-fluid blur-up lazyload"
+                            alt=""
+                          /><i class="ti-shopping-cart"></i>
+                        </div>
+                        <span class="cart_qty_cls">0</span>
+                        <ul class="show-div shopping-cart">
+                          <li>
+                            <div class="media">
+                              <a href="product-details.html"
+                                ><img
+                                  alt=""
+                                  class="me-3"
+                                  src="./assets/images/products/1.png"
+                              /></a>
+                              <div class="media-body">
+                                <a href="product-details.html">
+                                  <h4>Hero Cycle Sprint</h4>
+                                </a>
+                                <h4><span>1 x $687.45</span></h4>
+                              </div>
+                            </div>
+                            <div class="close-circle">
+                              <a href="#"
+                                ><i class="fa fa-times" aria-hidden="true"></i
+                              ></a>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="total">
+                              <h5>subtotal : <span>$687.45</span></h5>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="buttons">
+                              <a href="cart.html" class="view-cart"
+                                >view cart</a
+                              >
+                              <a href="checkout.html" class="checkout"
+                                >checkout</a
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-part bottom-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 menu-row">
+              <div class="main-nav-center">
+                <nav id="main-nav" class="text-start">
+                  <div class="toggle-nav">
+                    <i class="fa fa-bars sidebar-bar"></i>
+                  </div>
+                  <ul id="main-menu" class="sm pixelstrap sm-horizontal">
+                    <li>
+                      <a href="#" class="btn btn-light mx-3 px-5 fw-bolder">
+                        <i class="fa fa-bars me-3"></i> Category</a
+                      >
+                      <ul class="mx-3">
+                        <li>
+                          <a href="#">City Bicycles</a>
+                        </li>
+                        <li>
+                          <a href="#">Hybrid Bicycles</a>
+                        </li>
+                        <li>
+                          <a href="#">Road Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Mountain Bike </a>
+                        </li>
+                        <li>
+                          <a href="#">Fat Bike </a>
+                        </li>
+                        <li>
+                          <a href="#">Time Trial </a>
+                        </li>
+                        <li>
+                          <a href="#">BMX Bicycle </a>
+                        </li>
+                        <li>
+                          <a href="#">Folding Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Touring Bicycles </a>
+                        </li>
+                        <li>
+                          <a href="#">Fixed-Gear Bicycles </a>
+                        </li>
+
+                        <hr />
+
+                        <li>
+                          <a href="category.html">View All </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <div class="mobile-back text-end">
+                        Back<i
+                          class="fa fa-angle-right ps-2"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="mega" id="hover-cls">
+                      <a href="product-list.html">Balances Bike</a>
+                    </li>
+                    <li><a href="product-list.html">Kids Bike</a></li>
+                    <li>
+                      <a
+                        href="#"
+                        class="has-submenu"
+                        id="sm-16843014249737383-5"
+                        aria-haspopup="true"
+                        aria-controls="sm-16843014249737383-6"
+                        aria-expanded="false"
+                        >Accessories<span class="sub-arrow"></span
+                      ></a>
+                      <ul
+                        id="sm-16843014249737383-6"
+                        role="group"
+                        aria-hidden="true"
+                        aria-labelledby="sm-16843014249737383-5"
+                        aria-expanded="false"
+                        class="sm-nowrap"
+                        style="
+                          width: auto;
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: 0px;
+                          margin-top: 0px;
+                          min-width: 10em;
+                          max-width: 20em;
+                        "
+                      >
+                        <li>
+                          <a href="accessories.html">Kids Bike Gloves</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html">Kids Bike Helmates</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html"
+                            >Teenager / Adult Helmets</a
+                          >
+                        </li>
+                        <li>
+                          <a href="accessories.html"
+                            >Kids Knee and Elbow pads</a
+                          >
+                        </li>
+                        <li>
+                          <a href="accessories.html">Spare Parts</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="mega" id="hover-cls">
+                      <a
+                        href="#"
+                        class="has-submenu active"
+                        id="sm-16843803068102805-1"
+                        aria-haspopup="true"
+                        aria-controls="sm-16843803068102805-2"
+                        aria-expanded="false"
+                        >Products<span class="sub-arrow"></span
+                      ></a>
+                      <ul
+                        class="mega-menu full-mega-menu sm-nowrap"
+                        id="sm-16843803068102805-2"
+                        role="group"
+                        aria-hidden="true"
+                        aria-labelledby="sm-16843803068102805-1"
+                        aria-expanded="false"
+                        style="
+                          width: auto;
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          margin-top: 0px;
+                          min-width: 10em;
+                          max-width: 20em;
+                        "
+                      >
+                        <li>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col mega-box">
+                                <div class="link-section">
+                                  <div class="menu-title">
+                                    <h5>City Bicycles</h5>
+                                  </div>
+                                  <div class="menu-content">
+                                    <ul>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Hybrid Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Road Bicycles</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Mountain Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Fat Bike</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          target="_blank"
+                                          href="product-list.html"
+                                          >Time Trial</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <img
+                                  src="./assets/images/hero/banner/4.jpg"
+                                  class="img-fluid mega-img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <span
+                        class="scroll-up"
+                        style="
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          width: 1140px;
+                          z-index: 7;
+                          display: none;
+                          margin-top: -240px;
+                          visibility: hidden;
+                        "
+                        ><span class="scroll-up-arrow"></span></span
+                      ><span
+                        class="scroll-down"
+                        style="
+                          display: none;
+                          top: auto;
+                          left: 0px;
+                          margin-left: -223.719px;
+                          width: 1140px;
+                          z-index: 7;
+                          margin-top: 389px;
+                          visibility: hidden;
+                        "
+                        ><span class="scroll-down-arrow"></span
+                      ></span>
+                    </li>
+                    <li><a href="seller.html">Seller</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- breadcrumb start -->
+    <div class="breadcrumb-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="page-title">
+              <h2>Product List</h2>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <nav aria-label="breadcrumb" class="theme-breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Product List
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- breadcrumb end -->
+
+    <!-- section start -->
+    <section class="section-b-space ratio_asos">
+      <div class="collection-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 collection-filter">
+              <!-- side-bar colleps block stat -->
+              <div class="collection-filter-block">
+                <!-- categories  start -->
+                <div class="collection-mobile-back">
+                  <span class="filter-back"
+                    ><i class="fa fa-angle-left" aria-hidden="true"></i>
+                    back</span
+                  >
+                </div>
+                <div class="collection-collapse-block open">
+                  <h3 class="collapse-block-title">Categories</h3>
+                  <div class="collection-collapse-block-content">
+                    <div class="collection-brand-filter">
+                      <div class="form-check collection-filter-checkbox">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id=" categories"
+                        />
+                        <label class="form-check-label" for="All categories"
+                          >All categories</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >City Bicycles</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Hybrid Bicycles</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Road Bicycles</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Mountain Bike</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for="">Fat Bike</label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Time Trial</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >BMX Bicycle</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Folding Bicycles
+                        </label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Touring Bicycles
+                        </label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Fixed-Gear Bicycles
+                        </label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Cyclocross Bicycles
+                        </label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Tandem Bikes
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- categories  end -->
+
+                <!-- avalibity start -->
+                <div class="collection-collapse-block open">
+                  <h3 class="collapse-block-title">Avaliability</h3>
+                  <div class="collection-collapse-block-content">
+                    <div class="collection-brand-filter">
+                      <div class="form-check collection-filter-checkbox">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id=" In stock"
+                        />
+                        <label class="form-check-label" for="In stock"
+                          >In stock</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="Out of stock"
+                        />
+                        <label class="form-check-label" for="Out of stock"
+                          >Out of stock</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- avalibity end -->
+
+                <!-- product type end -->
+                <div class="collection-collapse-block open">
+                  <h3 class="collapse-block-title">brand</h3>
+                  <div class="collection-collapse-block-content">
+                    <div class="collection-brand-filter">
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Giant Bicycles</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Cannondale</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for="">Montra</label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Trek Bicycle Corporation</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for="">AVON</label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for="">Hercules</label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for="">Firefox</label>
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >BSA Cycles</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >Specialized Bicycle</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- color filter start here -->
+                <div class="collection-collapse-block open">
+                  <h3 class="collapse-block-title">colors</h3>
+                  <div class="collection-collapse-block-content">
+                    <div class="color-selector">
+                      <ul>
+                        <li class="color-1 active"></li>
+                        <li class="color-2"></li>
+                        <li class="color-3"></li>
+                        <li class="color-4"></li>
+                        <li class="color-5"></li>
+                        <li class="color-6"></li>
+                        <li class="color-7"></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- size filter start here -->
+                <div class="collection-collapse-block border-0 open">
+                  <h3 class="collapse-block-title">size</h3>
+                  <div class="collection-collapse-block-content">
+                    <div class="collection-brand-filter">
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for="">
+                          86.0 – 102.0 cm</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >99.0 – 117.0 cm</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >114.0 – 132.0 cm</label
+                        >
+                      </div>
+                      <div class="form-check collection-filter-checkbox">
+                        <input type="checkbox" class="form-check-input" id="" />
+                        <label class="form-check-label" for=""
+                          >130.0 – 150.0 cm</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- price filter start here -->
+                <div class="collection-collapse-block border-0 open">
+                  <h3 class="collapse-block-title">price</h3>
+                  <div class="collection-collapse-block-content">
+                    <div class="wrapper mt-3">
+                      <div class="range-slider">
+                        <input type="text" class="js-range-slider" value="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- silde-bar colleps block end here -->
+            </div>
+            <div class="collection-content col">
+              <div class="page-main-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="title8 mb-5">
+                          <h2 class="text-center heading-home">
+                            OUR <span>PRODUCTS</span>
+                          </h2>
+                          <p class="text-center text-dark">
+                            Create early childhood memories on the Kidvelo
+                            Balance Bike.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="collection-product-wrapper">
+                      <div class="product-top-filter">
+                        <div class="row">
+                          <div class="col-xl-12">
+                            <div class="filter-main-btn">
+                              <span class="filter-btn btn btn-theme"
+                                ><i class="fa fa-filter" aria-hidden="true"></i>
+                                Filter</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-wrapper-grid">
+                        <div class="row margin-res">
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-6 col-grid-box">
+                            <div class="product-box">
+                              <div class="img-wrapper">
+                                <div class="front">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="back">
+                                  <a href="product-details.html"
+                                    ><img
+                                      src="./assets/images/products/1.png"
+                                      class="img-fluid"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="cart-info cart-wrap">
+                                  <a
+                                    href="javascript:void(0)"
+                                    title="Add to Wishlist"
+                                    ><i class="ti-heart" aria-hidden="true"></i
+                                  ></a>
+                                  <a href="compare.html" title="Compare"
+                                    ><i class="ti-reload" aria-hidden="true"></i
+                                  ></a>
+                                </div>
+                              </div>
+
+                              <div class="product-detail text-center">
+                                <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                                <a href="product-details.html">
+                                  <h6>Hero Cycle Sprint</h6>
+                                </a>
+                                <h4 class="mb-3">$11,70</h4>
+                                <a
+                                  href="product-details.html"
+                                  class="btn btn-product"
+                                  >Shop Now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-pagination">
+                        <div class="theme-paggination-block">
+                          <div class="row">
+                            <div class="col-xl-6 col-md-6 col-sm-12">
+                              <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                  <li class="page-item">
+                                    <a
+                                      class="page-link"
+                                      href="#"
+                                      aria-label="Previous"
+                                      ><span aria-hidden="true"
+                                        ><i
+                                          class="fa fa-chevron-left"
+                                          aria-hidden="true"
+                                        ></i
+                                      ></span>
+                                      <span class="sr-only">Previous</span></a
+                                    >
+                                  </li>
+                                  <li class="page-item active">
+                                    <a class="page-link" href="#">1</a>
+                                  </li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#">2</a>
+                                  </li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#">3</a>
+                                  </li>
+                                  <li class="page-item">
+                                    <a
+                                      class="page-link"
+                                      href="#"
+                                      aria-label="Next"
+                                      ><span aria-hidden="true"
+                                        ><i
+                                          class="fa fa-chevron-right"
+                                          aria-hidden="true"
+                                        ></i
+                                      ></span>
+                                      <span class="sr-only">Next</span></a
+                                    >
+                                  </li>
+                                </ul>
+                              </nav>
+                            </div>
+                            <div class="col-xl-6 col-md-6 col-sm-12">
+                              <div class="product-search-count-bottom">
+                                <h5>Showing Products 1-24 of 10 Result</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section End -->
+
+    <!-- latest jquery-->
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+
+    <!-- menu js-->
+    <script src="./assets/js/menu.js"></script>
+
+    <!-- lazyload js-->
+    <script src="./assets/js/lazysizes.min.js"></script>
+
+    <!-- price range js -->
+    <script src="./assets/js/price-range.js"></script>
+
+    <!-- slick js-->
+    <script src="./assets/js/slick.js"></script>
+
+    <!-- Bootstrap js-->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Notification js-->
+    <script src="./assets/js/bootstrap-notify.min.js"></script>
+
+    <!-- Theme js-->
+    <script src="./assets/js/theme-setting.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+      function openSearch() {
+        document.getElementById("search-overlay").style.display = "block";
+      }
+
+      function closeSearch() {
+        document.getElementById("search-overlay").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
